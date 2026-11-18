@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# Raw multi-GB Zenodo archives and local model checkpoints
+datasets/*.npz
+datasets/*.zip
+datasets/*.pkl
+checkpoints/*.pth
+checkpoints/*.pt
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.env
+.vscode/
+.idea/
+
+# Ensure reproduction outputs and publication figures stay tracked on GitHub
+!results/
+!results/reproduction_results.json
+!results/REPRODUCTION_REPORT.md
+!results/figures/
+!results/figures/*.png
